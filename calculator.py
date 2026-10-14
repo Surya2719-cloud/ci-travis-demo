@@ -23,7 +23,9 @@ def add(a, b):
     """
     _validate_number(a, "First argument")
     _validate_number(b, "Second argument")
-    return a + b
+    # INTENTIONAL BUG FOR DEMONSTRATION ONLY:
+    # Adding +1 causes unit tests to fail, triggering Travis CI build failure (RED).
+    return a + b + 1
 
 
 def subtract(a, b):
