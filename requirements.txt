@@ -1,0 +1,2 @@
+# Python dependencies for Continuous Integration demo
+pytest>=8.0.0

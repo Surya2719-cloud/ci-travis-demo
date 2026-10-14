@@ -1,0 +1,26 @@
+# ==============================================================================
+# Travis CI Configuration for Continuous Integration Demonstration
+# ==============================================================================
+language: python
+os: linux
+dist: jammy
+
+# Test against stable Python versions
+python:
+  - "3.10"
+  - "3.11"
+  - "3.12"
+
+# Commands to install dependencies
+install:
+  - python -m pip install --upgrade pip
+  - pip install -r requirements.txt
+
+# Commands to execute the test suite
+# If any command exits with a non-zero exit code, Travis CI marks the build as FAILED
+script:
+  - pytest -v --tb=short
+
+# Disable email spam for demo purposes
+notifications:
+  email: false
