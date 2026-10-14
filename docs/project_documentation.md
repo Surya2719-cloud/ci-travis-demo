@@ -268,7 +268,7 @@ This procedure provides an exact script for the academic examination or laborato
    ```
 2. Link your GitHub repository and push:
    ```bash
-   git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/ci-travis-demo.git
+   git remote add origin https://github.com/Surya2719-cloud/ci-travis-demo.git
    git push -u origin main
    ```
 3. Open `https://app.travis-ci.com`. Navigate to `ci-travis-demo`.

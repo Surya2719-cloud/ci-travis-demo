@@ -1,6 +1,6 @@
 # Demonstration of Continuous Integration Using Travis CI
 
-[![Build Status](https://app.travis-ci.com/<YOUR_GITHUB_USERNAME>/ci-travis-demo.svg?branch=main)](https://app.travis-ci.com/<YOUR_GITHUB_USERNAME>/ci-travis-demo)
+[![Build Status](https://app.travis-ci.com/Surya2719-cloud/ci-travis-demo.svg?branch=main)](https://app.travis-ci.com/Surya2719-cloud/ci-travis-demo)
 [![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![Testing Framework](https://img.shields.io/badge/tested%20with-pytest-yellow.svg)](https://docs.pytest.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -105,7 +105,7 @@ Ensure you have the following installed on your machine:
 
 ### 2. Clone the Repository (or navigate to workspace)
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/ci-travis-demo.git
+git clone https://github.com/Surya2719-cloud/ci-travis-demo.git
 cd ci-travis-demo
 ```
 
@@ -247,7 +247,7 @@ Follow these steps to link this project with Travis CI:
 3. Create a new public repository on [GitHub](https://github.com/new) named `ci-travis-demo`.
 4. Link and push your local repository:
    ```bash
-   git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/ci-travis-demo.git
+   git remote add origin https://github.com/Surya2719-cloud/ci-travis-demo.git
    git push -u origin main
    ```
 
